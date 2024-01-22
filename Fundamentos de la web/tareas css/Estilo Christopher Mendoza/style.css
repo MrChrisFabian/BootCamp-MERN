@@ -1,0 +1,41 @@
+* {
+    font-family: sans-serif;
+}
+
+h1 {
+    color: white;
+    font-size: xx-large;
+    margin: 10px;
+    padding: 1%;
+}
+
+#Nav {
+    background-color: black;
+    margin: 10px;
+}
+
+#Cloud {
+    color: aqua;
+}
+
+#Proj {
+    margin: 10px;
+    padding: 1%;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+    color: aliceblue;
+    background-color: blueviolet;
+}
+
+#Foot {
+    margin: 10px;
+    padding: 1%;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: right;
+    text-decoration: underline;
+    color: indigo;
+    background-color: skyblue;
+}
