@@ -1,0 +1,74 @@
+* {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+#container {
+    background-color: bisque;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+#Tittle {
+    margin: 1px;
+}
+
+.text {
+    margin: 1px;
+}
+
+.Seccion {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: aqua;
+    flex: 1;
+    flex-direction: column;
+    width: auto;
+    height: 50px;
+}
+
+.Seccion1 {
+    margin-top: 40px;
+    flex: 4;
+    padding: 10px;
+}
+
+#iconoM {
+    width: 12px;
+    height: 18px;
+}
+
+#iconoG {
+    width: 15px;
+    height: 15px;
+}
+
+.TextIcon {
+    margin-left: 5px;
+    display: inline-block;
+}
+
+#Edit {
+    text-decoration: underline;
+    color: blue;
+}
+
+
+
+.containerIconandText {
+    display: flex;
+    align-items: center;
+}
+
+#profile {
+    border-width: 10px;
+    border-radius: 99%;
+    border: 5px solid white;
+    width: 75px;
+    height: 75px;
+    top: 15px;
+    left: 20px;
+    position: absolute;
+    outline: 2px solid black;
+}
