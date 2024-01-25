@@ -1,0 +1,237 @@
+* {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+#navBar {
+    z-index: 111111;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 5px 100px 5px 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#Tituloandlinks {
+    flex: 2;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+}
+
+#ButSO {
+    font-size: medium;
+    font-weight: bold;
+    padding: 5px;
+    color: white;
+    background-color: #17a2b8;
+}
+
+#ButSO:hover {
+    background-color: #69adb8;
+}
+
+.Anchors {
+    margin-left: 40px;
+    text-decoration: none;
+    color: white;
+}
+
+.Anchors:hover {
+    text-decoration: underline;
+}
+
+#container {
+    display: flex;
+    padding: 0px 100px 0px 100px;
+}
+
+main {
+
+    /* Posicionamiento de los items dentro */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding-top: 50px;
+    padding-right: 50px;
+
+    /* Posicionamiento de este elemento en la pantalla */
+    flex: 2;
+}
+
+#TarjUser {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#Seccion-azul {
+    height: 100px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: #17a2b8;
+}
+
+#seccion-blanca {
+    border-right: 5px solid gainsboro;
+    border-left: 5px solid gainsboro;
+    border-bottom: 5px solid gainsboro;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 80px 40px 40px 40px;
+
+}
+
+#Name {
+    font-size: xx-large;
+}
+
+#right-sidebar {
+    /* Posicionamiento de los items dentro */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* Posicionamiento de este elemento en la pantalla */
+    flex: 1;
+    margin-top: 60px;
+}
+
+#seccionTit {
+    padding: 0px 20px 20px 0px;
+    align-items: start;
+    justify-content: space-evenly;
+}
+
+#numer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 30px;
+    min-width: 30px;
+    height: auto;
+    width: auto;
+    border-radius: 99%;
+    color: #323232;
+    background-color: white;
+    margin-right: 10px;
+}
+
+
+.imagProfile {
+    z-index: 0;
+    margin-left: 40px;
+    position: absolute;
+    top: 80px;
+    border-width: 10px;
+    border-radius: 99%;
+    border: 5px solid white;
+    outline: 2px solid black;
+}
+
+
+#iconoM {
+    width: 12px;
+    height: 18px;
+}
+
+#iconoG {
+    width: 15px;
+    height: 15px;
+}
+
+.TextIcon {
+    margin-left: 5px;
+    display: inline-block;
+}
+
+#Edit {
+    text-decoration: underline;
+    color: blue;
+}
+
+.containerIconandText {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+.text {
+    margin-bottom: 5px;
+}
+
+#seccionTit {
+    padding-left: 40px;
+    padding-top: 20px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: #323232;
+    color: white;
+}
+
+#Titulo {
+    font-size: larger;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#seccion-Info {
+    border-right: 5px solid gainsboro;
+    border-left: 5px solid gainsboro;
+    border-bottom: 5px solid gainsboro;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 20px 40px 40px 40px;
+}
+
+#Fecha {
+    color: gray;
+    margin: 10px 10px 10px 0px;
+}
+
+.seccionTituloRight {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: #323232;
+    color: white;
+    text-align: start;
+}
+
+.miniProfile {
+    width: 40px;
+    height: 40px;
+    z-index: 0;
+    border-width: 10px;
+    border-radius: 99%;
+    border: 5px solid white;
+    outline: 2px solid black;
+}
+
+.seccionInfoRight {
+    border-right: 5px solid gainsboro;
+    border-left: 5px solid gainsboro;
+    border-bottom: 5px solid gainsboro;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 20px;
+}
+
+.acceptP{
+    display: flex;
+    align-items: center;
+}
+
+.class{
+    margin-left: 50px;
+}
