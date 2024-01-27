@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;900&display=swap');
+
+
+* {
+    margin: 0px 25px 0px 25px;
+    font-family: 'Prompt', sans-serif;
+}
+
+nav {
+
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    color: black;
+    background-color: gray;
+    justify-content: space-around;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-bottom: 25px;
+}
+
+#titulo {
+    font-size: xx-large;
+}
+
+#busquedas {
+    border: 5px solid black;
+    border-radius: 5px;
+    outline: none;
+    font-size: medium;
+}
+
+#sesion {
+    padding: 1px 10px 1px 10px;
+    font-size: x-large;
+    font-weight: bold;
+    background-color: #2f7ae3;
+    color: white;
+}
+
+#contenedor {
+    display: flex;
+}
+
+main {
+    flex: 2;
+    margin: 0px;
+}
+
+#right-sidebar {
+    flex: 1;
+}
+
+.tarjeta {
+    border: 5px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0px 0px 25px 25px;
+}
+
+#Palabra {
+    margin-right: 25px;
+}
+
+.informacion {
+    display: flex;
+    margin: 0px;
+}
+
+.izquierda {
+    margin: 0px;
+}
+
+a {
+    margin: 0px;
+}
+
+p {
+    margin: 0px 0px 10px 25px;
+    font-size: large;
+}
+
+.plural {
+    margin: 0px;
+    font-style: italic;
+}
+
+#YOU {
+    margin: 0px;
+    font-weight: bolder;
+}
+
+.megusta{
+    width: 100px;
+    background-color: #ffd966;
+    font-weight: bold;
+}
+
+#Agregar{
+    background-color: #93c47d;
+    font-size: large;
+    font-weight: 600;
+}
+#AgregarD{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
