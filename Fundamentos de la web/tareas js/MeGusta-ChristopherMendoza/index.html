@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="/script.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>Network</h1>
+        </nav>
+    </header>
+    <main>
+        <p id="titulo">Your Feed</p>
+        <div id="contenedor">
+            <div id="seccion-izq">
+                <article id="perfil">
+                    <img src="./images/user-circle.png" alt="perfil Foto" class="fotoPerfil">
+                    <a href="#">Add an Avatar</a>
+                    <h1 id="nombre">Christopher Mendoza</h1>
+                </article>
+            </div>
+            <div id="seccion-der">
+                <article class="feed">
+                    <div class="encabezado">
+                        <h1 class="tituloFeed">Neil M</h1>
+                        <div class="likesContenedor">
+                            <p class="likes"> 12 likes</p>
+                            <button type="button" onclick="like(this)" data-id="0">Like</button>
+                        </div>
+                    </div>
+                    <p>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+                </article>
+                <article class="feed">
+                    <div class="encabezado">
+                        <h1 class="tituloFeed">Iago M</h1>
+                        <div class="likesContenedor">
+                            <p class="likes"> 9 likes</p>
+                            <button type="button" onclick="like(this)" data-id="1">Like</button>
+                        </div>
+                    </div>
+                    <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+                </article>
+                <article class="feed">
+                    <div class="encabezado">
+                        <h1 class="tituloFeed">Katherine M</h1>
+                        <div class="likesContenedor">
+                            <p class="likes"> 10 likes</p>
+                            <button type="button" onclick="like(this)"data-id="2">Like</button>
+                        </div>
+                    </div>
+                    <p>I can't stop listening to the <a href="#">new album.</a></p>
+                    <p>Who else is liking it?</p>
+                </article>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

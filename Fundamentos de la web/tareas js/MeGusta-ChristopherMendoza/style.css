@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700;900&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin:0px 50px 0px 50px;
+}
+nav{
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+main{
+    text-align: center;
+}
+a{
+    margin: 0px;
+}
+button{
+    background-color: #ffd966;
+    font-weight: 700;
+    font-size: large;
+}
+#nombre{
+    margin-top: 25px;
+}
+#titulo{
+    margin: 30px;
+    font-size: 300%;
+    font-weight: bolder;
+}
+#contenedor{
+    padding: 0px;
+    margin:0px;
+    display: flex;
+}
+#seccion-izq{
+    flex: 1;
+}
+#perfil{
+    padding: 10px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 5px solid black;
+    border-radius: 5px;
+
+}
+.fotoPerfil{
+    width: 100px;
+    margin-bottom: 25px;
+}
+#seccion-der{
+    flex:3;
+}
+.feed{
+    margin-left: 0px;
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 25px;
+    margin-right: 0px;
+}
+.encabezado{
+    display: flex;
+    margin: 0px;
+}
+.likesContenedor{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin-right: 0px;
+    font-weight: 700;
+}
+.likes{
+    margin:15px 10px 15px 50px;
+}
+.button{
+    margin:15px 10px 15px 10px;
+}
+.tituloFeed{
+    flex:5;
+    margin:15px 10px 15px 50px;
+    text-align: left;
+}
