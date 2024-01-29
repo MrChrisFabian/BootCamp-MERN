@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DojoWeather-Chris</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1 id="titulo">DojoWeather</h1>
+            <div id="links">
+                <a href="#" class="opcion" onclick="changeCity()"> Encarnación </a>
+                <a href="#" class="opcion" onclick="changeCity()"> Chicago </a>
+                <a href="#" class="opcion" onclick="changeCity()"> Dallas </a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <header id="Encabezado">
+                <h1>San Jose</h1>
+                <div id="tempOption">
+                    <p>show temperature in</p>
+                    <select onchange="changeGrade()" name="temp" id="grados">
+                        <option value="0">C°</option>
+                        <option value="1">F°</option>
+                    </select>
+                </div>
+            </header>
+            <div id="contarjetas">
+                <article class="tarjeta">
+                    <h1 class="dia">Today</h1>
+                    <img src="assets/some_clouds.png" alt="icono de nubes" class="pronostico">
+                    <p class="clima">Some clouds</p>
+                    <div class="temperaturas">
+                        <p class="min">24°</p>
+                        <p class="max">18°</p>
+                    </div>
+                </article>
+                <article class="tarjeta">
+                    <h1 class="dia">Tomorrow</h1>
+                    <img src="assets/some_clouds.png" alt="icono de nubes" class="pronostico">
+                    <p class="clima">Some clouds</p>
+                    <div class="temperaturas">
+                        <p class="min">27°</p>
+                        <p class="max">19°</p>
+                    </div>
+                </article>
+                <article class="tarjeta">
+                    <h1 class="dia">Wednesday</h1>
+                    <img src="assets/some_rain.png" alt="icono de lluvia" class="pronostico">
+                    <p class="clima">Some rain</p>
+                    <div class="temperaturas">
+                        <p class="min">21°</p>
+                        <p class="max">16°</p>
+                    </div>
+                </article>
+                <article id="ulttarjeta">
+                    <h1 class="dia">Thursday</h1>
+                    <img src="assets/some_sun.png" alt="icono de sol" class="pronostico">
+                    <p class="clima">Some sun</p>
+                    <div class="temperaturas">
+                        <p class="min"> 26° </p>
+                        <p class="max"> 21  °</p>
+                    </div>
+                </article>
+            </div>
+        </article>
+        <footer id="cookies">
+            <div id="contenidoCookie">
+                <img src="assets/cookie.png" alt="cookie icon" id="cookimg">
+                <div id="text">
+                    <h1>Stop! Cookie time</h1>
+                    <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social
+                        media features and to analyse our traffic. <a href="#">Read more...</a></p>
+                </div>
+                <button id="acepto" onclick="removeCookie(this)">I Accept</button>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
