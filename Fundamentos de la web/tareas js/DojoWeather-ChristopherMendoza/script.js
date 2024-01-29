@@ -1,7 +1,6 @@
 function removeCookie(element) {
     element.parentNode.parentNode.remove()
 }
-const select = document.querySelector("#grados")
 function changeGrade() {
     if (select.value == 1) {
         let tempMin;
@@ -29,4 +28,5 @@ function changeCity() {
 }
 let minimos = document.querySelectorAll(".min");
 let maximos = document.querySelectorAll(".max");
+const select = document.querySelector("#grados")
 
