@@ -1,0 +1,33 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+}
+
+h1 {
+    text-align: center;
+}
+p{
+    margin: 0px;
+}
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.encabezado {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.desafio {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 5px solid black;
+    border-radius: 5px;
+    padding: 10px
+}
