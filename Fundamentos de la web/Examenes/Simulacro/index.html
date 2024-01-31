@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christopher Examen</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div id="encabezado">
+                <div id="logo">
+                    <img src="assets/heart-light.png" alt="icono corazón">
+                    <h1 class="Titulo"> Pet Shelter</h1>
+                </div>
+
+                <div class="links">
+                    <a href="#" class="linknav">Find a Pet</a>
+                    <a href="#" class="linknav">About</a>
+                    <button id="donate">Donate</button>
+                </div>
+            </div>
+            <div id="menu">
+                <div class="zonaIzq">
+                    <div class="seleccion">
+                        <p>I'm looking for a...</p>
+                        <div class="selector">
+                            <img class="iconimg" src="assets/paw-light.png" alt="icono de pata de Perro">
+                            <select name="Pet" id="mascota">
+                                <option value="0">Any Pet</option>
+                                <option value="1">Cat</option>
+                                <option value="2">Dog</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="seleccion">
+                        <p>In or near...</p>
+                        <div class="selector">
+                            <img class="iconimg" src="assets/pin-light.png" alt="icono de pata de Perro">
+                            <input type="text" value="" placeholder="City or Zip Code">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <button id="botonBusqueda">Find your new best friend</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main id="contenido">
+        <article class="tarjeta">
+            <div class="imagDescription">
+                <img class="imagenPet" src="assets/bruce.jpg" alt="dog image">
+                <div class="textPet">
+                    <h1 class="NombreMascota">Bruce</h1>
+                    <p>Un perro muy bonito y cariñoso</p>
+                </div>
+            </div>
+            <div class="botonYCont">
+                <p class="pettings">9 petting(s)</p>
+                <button class="Pepper" onclick="petting(this)" data-id="0">Pet Pepper</button>
+            </div>
+        </article>
+        <article class="tarjeta">
+            <div class="imagDescription">
+                <img class="imagenPet" src="assets/pepper.jpg" alt="dog image">
+                <div class="textPet">
+                    <h1 class="NombreMascota">Pepper</h1>
+                    <p>Un gato muy bonito y cariñoso</p>
+                </div>
+            </div>
+            <div class="botonYCont">
+                <p class="pettings">10 petting(s)</p>
+                <button class="Pepper" onclick="petting(this)" data-id="1">Pet Pepper</button>
+            </div>
+        </article>
+        <article class="tarjeta">
+            <div class="imagDescription">
+                <img class="imagenPet" src="assets/oscar.jpg" alt="dog image">
+                <div class="textPet">
+                    <h1 class="NombreMascota">Oscar</h1>
+                    <p>Un perro muy bonito y cariñoso</p>
+                </div>
+            </div>
+            <div class="botonYCont">
+                <p class="pettings">11 petting(s)</p>
+                <button class="Pepper" onclick="petting(this)" data-id="2">Pet Pepper</button>
+            </div>
+        </article>
+    </main>
+</body>
+
+</html>
