@@ -1,7 +1,7 @@
 
-let pettBruce = 9;
-let pettPepper = 10;
-let pettOscar = 11;
+let pettBruce = 10;
+let pettPepper = 11;
+let pettOscar = 12;
 const DONATE = document.querySelector("#donate");
 const SELECT = document.querySelector("#mascota");
 const PETTINGCONT = document.querySelectorAll(".pettings");
